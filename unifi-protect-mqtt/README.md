@@ -4,6 +4,11 @@ Bridges motion and doorbell ring events to Hassio/MQTT.
 
 Primarily meant for doorbell ring events although motion events are published as well. 
 
+
+## Installation
+
+Add https://github.com/jwsample/hassio-unifi-protect-mqtt as a repository in Supervisor -> Add-on store
+
 ## About
 
 I needed a simple doorbell event in hassio but most of the solutions required either installing extra packages on the doorbell or install installing HACS.
