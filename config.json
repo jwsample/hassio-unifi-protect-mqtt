@@ -1,0 +1,39 @@
+{
+  "name": "Unifi Protect MQTT Bridge",
+  "version": "0.4.1",
+  "slug": "uprotect_mqtt",
+  "description": "Simple Unifi Protect MQTT Bridge",
+  "arch": [
+    "armhf",
+    "armv7",
+    "aarch64",
+    "amd64",
+    "i386"
+  ],
+  "startup": "application",
+  "boot": "auto",
+  "options": {
+    "cloudkey_host": null,
+    "cloudkey_user": "ubnt",
+    "cloudkey_password": null,
+    "cloudkey_fingerprint": null,
+    "mqtt_ring_topic": "unifi/protect/doorbell",
+    "mqtt_motion_topic": "unifi/protect/motion",
+    "mqtt_host": "core-mosquitto",
+    "mqtt_user": null,
+    "mqtt_password": null,
+    "verbose_logging": false
+  },
+  "schema": {
+    "cloudkey_host": "str",
+    "cloudkey_user": "str",
+    "cloudkey_password": "str",
+    "cloudkey_fingerprint": "str",
+    "mqtt_ring_topic": "str",
+    "mqtt_motion_topic": "str",
+    "mqtt_host": "str",
+    "mqtt_user": "str",
+    "mqtt_password": "str",
+    "verbose_logging": "bool"
+  }
+}
