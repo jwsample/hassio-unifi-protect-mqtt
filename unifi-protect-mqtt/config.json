@@ -1,7 +1,7 @@
 {
   "name": "Unifi Protect MQTT Bridge",
   "url": "https://github.com/jwsample/hassio-unifi-protect-mqtt",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "slug": "uprotect_mqtt",
   "description": "Simple Unifi Protect MQTT Bridge",
   "arch": [
