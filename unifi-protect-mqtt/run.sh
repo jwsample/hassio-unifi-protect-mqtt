@@ -22,7 +22,7 @@ echo $cloudkey_fingerprint > ~/.ssh/known_hosts
 while :
 do
     sshpass -p "${cloudkey_password}" \
-      ssh -t ${cloudkey_user}@${cloudkey_host} "tail -F /srv/unifi-protect/logs/events.cameras.log" \
+      ssh -t ${cloudkey_user}@${cloudkey_host} "tail -n 0 -F /srv/unifi-protect/logs/events.cameras.log" \
       | node read.js 
 
     echo "SSH connection failure."
