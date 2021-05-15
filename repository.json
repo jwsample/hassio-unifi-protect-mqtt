@@ -1,0 +1,5 @@
+{
+    "name": "Hassio Add-on - Unifi Protect MQTT",
+    "url": "https://github.com/jwsample/hassio-unifi-protect-mqtt",
+    "maintainer": "jwsample"
+  }
